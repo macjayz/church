@@ -1,3 +1,4 @@
+
 <?php 
 require_once("includes/connect.php");
 include("includes/session.php");
@@ -10,61 +11,28 @@ include("includes/functions.php");
             <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
             <script src="js/jquery-3.4.1.min.js" type="text/javascript"> </script>
             <script src="js/bootstrap.min.js" type="text/javascript"> </script>
-            <link rel="stylesheet" href="css/publicstyles.css">
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=1"/> 
+            <link rel="stylesheet" href="css/style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-.fieldinfo { color: rgb(251,174,44);
-                             font-family: bold;
-                             font-size: 1.2em;
-                            }
-                .comment-block {background-color:#f6f7f9; padding-right: 10px; }
-                .comment-info {color: #365899;
-                               font-family: system-ui;
-                                font-weight: bold;
-                                padding-top: 10px
-                                }
-                .comment {margin-top: -2px;
-                        margin-bottom: 10;
-                        font-size: 1.2em; 
-                        font-family: monospace;
-                        text-align: justify;
-                    
-                        /*padding-left: 90px;*/
-                        }
 </style>
 </head>
-
 <body>
-    
-<div class="jumbotron" >
-    <div class="container">
-        <ul class="navbar-left" style="margin-left:-60; margin-top:-40">
-            <li style="font-size:16px; color: white;">Call Us Today! +44 20 8771 0919|info@ccccovenantparish.com
-            </li>
-        </ul>
+<div class="container-fluid" style="margin-left:10px; margin-right:10px">
+<div class="header">
+  <nav class="navbar navbar-white" style="background:#333399;">
+      <p>Call Us Today! +44 20 8771 0919|Info@Ccccovenantparish.Com</p>
+     <div class="navbar-header">
+         <a class="navbar-brand" href="blog.php">
+            <img src="images/logo.png" width="230" height="180">
+        </a>
+     </div> 
+     
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-             </button>   
-          <a class="navbar-brand" href="blog.php">
-                <img src="images/logo.png" width="230" height="180">
-            </a>
-        
-        </div>
-        <div class="collapse navbar-collapse" id="collapse">
-        <ul class="nav navbar-nav navbar-right"  style="font-size:16px;margin-left:-60; margin-top:-255; color: white;">
-            <li><a class="navtop">Location & Contact</a></li>
-            <li><a class="navtop">Terms & Conditions</a></li>
-            <li><a class="navtop">Privacy Policy </a></li>
-        </ul>
-        </div>
-    </div>
+  </nav>
 </div>
- <div class="container"> 
+</div>
+ 
+<div class="container-fluid"> 
     <nav class="menu" style="margin-top:-40;">
   <ol>
     <li class="menu-item"><a href="index.php">Home</a></li>
@@ -96,102 +64,120 @@ include("includes/functions.php");
   </ol>  
 </nav> <!--end of navigation bar-->
     <hr class="white">
- </div>   
-<!--begining of cloud image; main body-->
-<div class="container-fluid" >
-  <div id="left" style="height: 52vh; margin-bottom:10px">
-      <p>Welcome to</p>
-      <p>Celestial Church of Christ</p>
-        <br>
-        <p>Covenant of God Parish</p>
-</div>
-  <div id="right" style="background-image: url('images/clouds.jpg'); background-repeat: no-repeat; height: 52vh; margin-bottom: 50px; background-size:cover"></div>
-</div>
-<!--start of main body-->
-<br><br>
-<div class="container-fluid" style="background:white;">
+ </div>
+    <div class="container-fluid" style="border: 2px solid black;" >
+        <img class="img-responsive" src="images/clouds.jpg" alt="img"  style="margin:auto; display: block; opacity:0.6; position:relative;">
+        <span id="uptext">
+        <p style="color:white">Welcome to</p>
+        <p style="color:white">Celestial Church of Christ</p>
+        <p style="color:#99003d">Covenant of God Parish</p>
+        </span>
+    </div>
+
+
+    
+<div class="container-fluid" style="background-color:#fff">
+<div class="container-fluid">
 <br>
-<h2 style="text-align: center; font-weight: bold; color:#333399">Celestial Church of Christ – Covenant of God Parish</h2>
+<img class="img-responsive" src="images/flower.png" alt="<hr>" width="100" style="margin:auto; display: block" id="hrimage">
+
+<h1 style="text-align:center; color:#333399; font-weight:bold">Celestial Church Of Christ – Covenant Of God Parish</h1>
+</div>
+<div class="container-fluid" style="margin-left:30px; margin-right:30px">
+<div class="row">
+  <div class="col-3 menu1">
+      <img class="img-responsive" src="images/logo.png" alt="<hr>" width="200" style="margin:auto; display: block" id="hrimage">
+    <ul>
+      <li>Location & Contact</li>
+      <li>Terms & Condition</li>
+      <li>Privacy Policy</li>
+    </ul>
+  </div>
+
+  <div class="col-6" style="text-align:justify">
+    <p>Welcome To The Glory Of God, Celestial Church Of Christ – Covenant Of God Parish. Our Parish Was Established In 1993 In South East London (UK).The Church Was Established By The Will Of The ALMIGHTY GOD In A Two Bedroom Flat Of Hon-Most-Evang. J. Femi OMOGBAI On Wednesday 20th Of October 1993 With 17 Members. On Friday 22rd Of October 1993 During The Power Day Service, The Name Of The Church Was Given By Spiritual Revelation As “COVENANT OF GOD”. The Aim And Objective Of Our Church Is To Propagate The Ministry Of Christ And To Worship In Unity And Love. The Parish Moved From The Residence Of Hon-Most-Evang. J. Femi Omogbai To Wheatsheaf Community Centre SW8 In 1994, And In 1995 We Moved To 9 Brighton Terrace In Brixton SW9.Presently The LORD Has Blessed Us With Our Own Building Which Includes A Vicarage Situated At 12 St. Aubyn’s Road, Upper Norwood, LONDON SE19 3AD In 1997. This Is To Testify The Promise Of God Fulfilled Admist His True Chosen Ones. Therefore, Dear Brethren In Christ, Join Us To Worship Christ Together.</p>
+  </div>
+
+<!--    right side image-->
+  <div class="col-3 right">
+      <h3 style="text-align:center; color: #333399; font-weight:bold">Covenant 2019</h3>
+    <div class="aside">
+     <a href="#">
+      <img id="zoom" class="img-responsive" src="images/sideimg.jpg" alt="image" width="400" style="margin:auto; display:block">
+    </a>
+      <br>
+      <span class="btn btn-success">FIND OUT MORE</span>
+    </div>
+  </div>
+</div> <!--row-->
+</div> <!--container -->
+    
+<div class="container-fluid">
+<img class="img-responsive" src="images/flower.png" alt="<hr>" width="100" style="margin:auto; display: block" id="hrimage">
 <br>
-<hr class="type_7" style="border:0; height: 55px; background-image: url(images/flower.png); background-repeat:no-repeat; margin-left:300px">
+</div>
+    
+</div>
 
 <div class="container">
-    <div class="row"><!--begining of main grid-->
-        <div class="col-md-9"> 
-<div style="color:black;" class="comment-block">
-        <img style="margin-left:5px; margin-top:10px; opacity: 0.6; margin-right: 5px" class="pull-left" src="images/logo.png" width="180px" height="150px">
-            <p class="comment">Welcome to the glory of God, Celestial Church of Christ – Covenant of God Parish. Our parish was established in 1993 in South East London (UK).The Church was established by the will of the ALMIGHTY GOD in a two bedroom flat of Hon-Most-Evang. J. Femi OMOGBAI on Wednesday 20th of October 1993 with 17 members.
-
-On Friday 22rd of October 1993 during the power day service, the name of the Church was given by spiritual revelation as “COVENANT OF GOD”.
-
-The aim and objective of our church is to propagate the Ministry of Christ and to worship in Unity and Love. The Parish moved from the residence of Hon-Most-Evang. J. Femi Omogbai to Wheatsheaf Community Centre SW8 in 1994, and in 1995 we moved to 9 Brighton Terrace in Brixton SW9.Presently the LORD has blessed us with our own building which includes a vicarage situated at 12 St. Aubyn’s Road, Upper Norwood, LONDON SE19 3AD in 1997. This is to testify the promise of God fulfilled admist his true chosen ones. Therefore, dear brethren in Christ, join us to worship Christ together.</p>
+<div class="row">
+  <div class="col-3">
+    <div class="thumbnail" style="text-align:center; font-weight:bold;background-color:rgb(178,178,219)">
+        <p>Our Services</p>
+      <a href="#">
+        <img id="zoom" class="img-responsive" src="images/1.jpg" alt="Lights" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+        <span class="btn btn-primary">SERVICES</span>
     </div>
-    </div><div>
-        <div class="col-sm-3">
-            <div class="container">
-            <h3 style="text-align: center; font-weight: bold; color:#333399">Covenant 2016</h3>
-            <img src="images/sideimg.jpg" width="250px" height="350px" class="zoom">
-            </div>
-            <br>
-            <button class="button" style="margin-left:40px">FIND OUT MORE</button>
-            </div>  
-            <br>
+  </div>
+  <div class="col-3">
+    <div class="thumbnail" style="text-align:center; font-weight:bold;background-color:rgb(178,178,219)">
+        <p>Our Bible Studies</p>
+      <a href="#">
+        <img id="zoom" class="img-responsive" src="images/2.jpg" alt="Nature" style="width:100%">
+        <div class="caption">
         </div>
-</div> <!-- end of main grid -->
+      </a>
+        <span class="btn btn-primary">BIBLE LESSONS</span>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="thumbnail" style="text-align:center; font-weight:bold;background-color:rgb(178,178,219)">
+        <p>Our Doctrines</p>
+      <a href="#">
+        <img id="zoom" class="img-responsive" src="images/3.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+        <span class="btn btn-primary">DOCTRINES</span>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="thumbnail" style="text-align:center; font-weight:bold;background-color:rgb(178,178,219)">
+        <p>Our Community</p>
+      <a href="#">
+        <img id="zoom" class="img-responsive" src="images/4.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+        <span class="btn btn-primary">JOIN US</span>
+    </div>
+  </div>
+</div>
+</div>
 
+<div class="container-fluid">
+<img class="img-responsive" src="images/flower.png" alt="<hr>" width="100" style="margin:auto; display: block" id="hrimage">
 <br>
 </div>
-    <hr class="type_7" style="border:0; height: 55px; background-image: url(images/flower.png); background-repeat:no-repeat; margin-left:300px">
-</div>
-  <!--second grid for images   -->
-<div class="row" id="grid-headings">
-    <div class="col-sm-2">
-        <span >Our Services</span>
-        <div class="container" style="color:black">
-        <br>
-         <img src="images/1.jpg" width="250px" height="270px" class="zoom">
-        </div>
-        <br>
-        <a href="#" style="margin-left:90px"> <span class="btn btn-success">SERVICES</span></a>
-    </div>   
-    <div class="col-sm-offset-1 col-sm-2">
-        <span>Bible Lessons</span>
-        <div class="container" style="color:green">
-        <br>
-         <img src="images/2.jpg" width="250px" height="270px" class="zoom"> 
-        </div>
-        <br>
-        <a href="#" style="margin-left:70px"> <span class="btn btn-success">BIBLE LESSONS</span></a>
-    </div> 
-    <div class="col-sm-offset-1 col-sm-2">
-         <span>Our Doctrines</span>
-        <div class="container" style="color:yellow">
-        <br>
-            <img src="images/3.jpg" width="250px" height="270px" class="zoom">        
-        </div>
-        <br>
-        <a href="#" style="margin-left:90px"> <span class="btn btn-success"> DOCTRINES</span></a>
-    </div> 
-    <div class="col-sm-offset-1 col-sm-2">
-        <span>Our Community</span>
-        <div class="container">
-        <br>
-         <img src="images/4.jpg" width="250px" height="270px" class="zoom">
-        </div>
-        <br>
-        <div class="col-sm-4 ">
-            <a href="#" style="margin-left:90px"><button class="btn btn-success center-block">JOIN US</button></a>
-            </div> 
-    </div> 
-</div>    
- <hr class="type_7" style="border:0; height: 55px; background-image: url(images/flower.png); background-repeat:no-repeat; margin-left:300px"> 
-<br>
 
 <div class="container" style="text-align:center; color: white;">
  <h2>A Brief History</h2>
 <p>Celestial Church of Christ</p>  
  <br>   
-  
+<p style="text-align: justify">  
 The Celestial Church of Christ was founded by Samuel Joseph Bilewu Oschoffa, a former carpenter born in Dahomey ( Now the Republic of Benin) in 1909. Raised as Protestant (Methodism), he had a divine revelation on 27 May 1947, during a solar eclipse, in a forest where he was lost.
 
 The Celestial Church of Christ is a spiritual church recognised world-wide in its unique way of worship, indivisible Holy Church, which came into the world from heaven by DIVINE ORDER through, on the 29th of September 1947 in Porto Novo, Republic of Benin, who was later called into God’s glory in 1985.
@@ -199,25 +185,21 @@ The Celestial Church of Christ is a spiritual church recognised world-wide in it
 The Celestial Church of Christ (CCC) was recognized and authorized by the Republic of Benin in 1965.
 
 From the late 1990s, this church has shown its willingness to use the Internet as a privileged means of evangelisation thus allowing the many existing branches of the church within the African Diaspora (United Kingdom, Germany, Austria, France and USA)
+</p>
 </div>
  <br>
-<hr class="type_7" style="border:0; height: 55px; background-image: url(images/flower.png); background-repeat:no-repeat; margin-left:300px"> 
-    
-<div id="footer">
-    <hr><p> Theme By | CodeLib | &copy;2019-2023 --- All right reserved.</p>
+<div class="container-fluid">
+<img class="img-responsive" src="images/flower.png" alt="<hr>" width="100" style="margin:auto; display: block" id="hrimage">
+<br>
+</div>    
+<div class="container-fluid">
+<div class="footer">
+  <hr><p> Theme By | CodeLib | &copy;2019-2023 --- All right reserved.</p>
     <a style="color: white; text-decoration: none; cursor: pointer; font-weight: bold;" href="#">
     This is a demo site. Full license will be granted to whoever purchase this site.
     No one is allowed to copy other than <br>&trade; emjayz.com, thanks.
     </a>
 </div>
-<div style="height:10px; background-color:#27AAE1"></div>
 </div>
-
- 
-    
-    
-    
-    
 </body>
-
 </html>
